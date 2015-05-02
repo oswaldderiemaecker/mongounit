@@ -11,10 +11,8 @@
 		 strict="true"
 		 colors="true">
 	<testsuites>
-		<testsuite name="Core Test Suite">
-			<directory suffix="Test.php">./tests</directory>
-		</testsuite>
-		<testsuite name="Sample Test 5.3.0">
+		<testsuite name="Sample Test">
+      <directory suffix="Test.php" phpVersion="5.3.0" phpVersionOperator=">=">./tests</directory>
       <directory suffix="Test53.php" phpVersion="5.3.0" phpVersionOperator=">=">./examples/5.3.0</directory>
       <file phpVersion="5.3.0" phpVersionOperator=">=">./examples/5.3.0/PizzaTest53.php</file>
       <directory suffix="Test54.php" phpVersion="5.4.0" phpVersionOperator=">=">./examples/5.4.0</directory>
