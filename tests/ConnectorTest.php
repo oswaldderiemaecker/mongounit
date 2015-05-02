@@ -9,7 +9,7 @@ class ConnectorTest extends \PHPUnit_Framework_TestCase {
     $connection = new Connector(new \MongoClient(
 "mongodb://localhost:27017", 
     array(
-        "socketTimeoutMS" => 100000
+        "connectTimeoutMS" => 100000
     ) 
 ));
 		$connection->setDb('test');
