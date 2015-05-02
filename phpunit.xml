@@ -19,8 +19,8 @@
       <file phpVersion="5.4.0" phpVersionOperator=">=">./examples/5.4.0/PizzaTraitTest.php</file>
 		</testsuite>
 		<testsuite name="Sample Test 5.3.0">
-      <directory suffix="Test.php" phpVersion="5.3.0" phpVersionOperator=">=">./examples/5.3.0</directory>
-      <file phpVersion="5.3.0" phpVersionOperator=">=">./examples/5.3.0/PizzaTest.php</file>
+      <directory suffix="Test.php" phpVersion="5.4.0" phpVersionOperator="<=">./examples/5.3.0</directory>
+      <file phpVersion="5.4.0" phpVersionOperator="<=">./examples/5.3.0/PizzaTest.php</file>
 		</testsuite>
 	</testsuites>
 	<filter>
