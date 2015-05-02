@@ -15,8 +15,8 @@
 			<directory suffix="Test.php">./tests</directory>
 		</testsuite>
 		<testsuite name="Sample Test">
-      <file phpVersion="5.3.27" phpVersionOperator="<=">./examples/TestPizza.php</file>
-      <file phpVersion="5.4.0" phpVersionOperator=">=">./examples/PizzaTraitTest.php</file>
+      <directory suffix="Test.php" phpVersion="5.4.0" phpVersionOperator=">=">./examples/5.4.0</directory>
+      <file phpVersion="5.4.0" phpVersionOperator=">=">./examples/5.4.0/PizzaTraitTest.php</file>
 		</testsuite>
 	</testsuites>
 	<filter>
