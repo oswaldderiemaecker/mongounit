@@ -5,13 +5,7 @@ use Zumba\PHPUnit\Extensions\Mongo\Client\Connector;
 class ConnectorTest extends \PHPUnit_Framework_TestCase {
 
 	public function testGeneralConnection() {
-    //sleep(5);
-    $connection = new Connector(new \MongoClient(
-"mongodb://localhost:27017", 
-    array(
-        "connectTimeoutMS" => 100000
-    ) 
-));
+    $connection = new Connector(new \MongoClient()); 
 		$connection->setDb('test');
 		$this->assertInstanceOf('Zumba\PHPUnit\Extensions\Mongo\Client\Connector', $connection);
 		$connection->collection('test')->insert(array(
