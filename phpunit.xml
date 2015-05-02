@@ -6,7 +6,7 @@
 		 convertNoticesToExceptions="true"
 		 convertWarningsToExceptions="true"
 		 processIsolation="false"
-     printerClass="PHPUnit_Util_TestDox_ResultPrinter"
+     printerClass="PHPUnit_Util_TestDox_ResultPrinter_Text"
 		 stopOnFailure="false"
 		 syntaxCheck="true"
 		 strict="true"
